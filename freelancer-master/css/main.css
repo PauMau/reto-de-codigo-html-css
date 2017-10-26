@@ -1,0 +1,419 @@
+body{
+	font-family: 'Lato', sans-serif;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.encabe{
+	background: #2c3e50;  /*color azul oscuro*/
+	height:18%;
+	width: 100%;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	padding-top: 35px;
+	font-weight: 900;
+}
+
+.izq{    /*bootstrap*/
+	color: #fff;
+	display: inline;
+	margin-left: 70px;
+ 	padding-right: 300px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 30px;
+ 	
+}
+.der{    /* contact about portafolio*/
+	color: #fff;
+	display: inline;
+	font-size: 15px;
+	margin-right: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* hasta aqui el header*/
+
+.centro{
+	background: #18bc9c;   /*color celeste*/
+	width: 100%;
+	height:100%;
+	float:left;
+	padding-bottom: 50px;
+}
+.hombre{
+	position:inline;
+	margin-top:17%;
+	margin-left: 38%;
+	align-self: center;
+}
+H1{  /*START BOOTSTRAP*/
+	color: white;
+	text-align: center;
+	font-size: 75px;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 30px;
+
+}
+H3{
+	color:white;
+	font-size:28px;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	text-align: center; 
+}
+
+.hdr1{ /*lineas junto a la primera estrella*/
+	width: 100px;
+	border: 2px solid #fff;  /*color blanco*/
+	float:left;
+	position:inline;
+	margin-right:9px;
+	margin-left:38%;
+	margin-top: 15px;
+
+}
+.star1{
+	align-items: center;
+}
+
+.hdr2{ /*lineas junto a la primera estrella*/
+	width: 100px;
+	border: 2px solid #fff;  /*color blanco*/
+	float:right;
+	position:inline;
+	margin-left:4px;
+	margin-right:38%;
+	margin-top: 15px;
+
+}
+
+/* fin de parte celeste (central)*/
+/*comienza portafolio*/
+
+.porta1 star2{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 50px;
+	color:  #212529;  /*color gris*/
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.port1{
+	width: 100px;
+	border: 2px solid #212529;  /*color gris*/
+	float:left;
+	position:inline;
+	margin-right:9px;
+	margin-left:38%;
+	margin-top: 15px;
+}
+.star2{   /*estrella del portafolio*/
+	align-items: center;
+}
+.port2{	       /*lineas que estan junto a la estrella*/
+	width: 100px;
+	border: 2px solid #212529;  /*color gris*/
+	float:right;
+	position:inline;
+	margin-left: 4px;
+	margin-right: 38%;
+	margin-top: 15px;
+}
+
+.porta{   /*imagenes del portafolio*/
+	width:300px;
+	height: 200px;
+	margin:15px;
+}
+/*hasta aqui llega el portafolio*/
+
+.about{
+
+	background: #18bc9c;   /*color celeste*/
+	padding-top: 30px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	padding-bottom: 50px;
+}
+.ab{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.uno1{  /*linea izquierda junto a la estrella*/
+	width:100px;
+	border: 2px solid #fff;  /*color blanco*/
+	float:left;
+	position: inline;
+	margin-right:9px;
+	margin-left:38%;
+	margin-top: 15px;
+}
+.star3{
+	align-items: center;
+}
+.dos2{   /*linea derecha junto a la estrella*/
+	width: 100px;
+	border: 2px solid #fff;    /*color blanco*/
+	float:right;
+	position:inline;
+	margin-right:38%;
+	margin-left:4px;
+	margin-top:15px;
+}
+.uno{    /*parrafo izquierdo*/
+	float:left;
+	font-size: 20px;
+	height: 200px;
+	width: 300px;
+	margin-left: 150px;
+	margin-right: 50px;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+
+.dos{    /*parrafo derecho*/
+	float:right;
+	font-size: 20px;
+	height: 200px;
+	width: 300px;
+	margin-left: 50px;
+	margin-right: 150px;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+.down{   /* falta agregar el icono de download y alinear el boton en el centro*/
+	
+	border:2px solid white;
+	border-radius: 5px;
+	height:50px;
+	width: 200px;
+	background: #18bc9c;    /*color celeste*/
+	color: white;
+	font-size:20px;
+	margin-left:450px;
+}
+
+.down:hover{
+	border:2px solid white;
+	border-radius: 5px;
+	height:50px;
+	width: 200px;
+	background: #fff;   
+	color: #18bc9c;
+	font-size:20px;
+	margin-left:450px;
+}
+/*HASTA AQUI LLEGA ABOUT*/
+
+/*COMIENZA FORMULARIO*/
+.contac{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	color: #212529;
+}
+.me{ 	 /*linea izquierda junto a la estrella*/
+	width: 100px;
+	border: 2px solid #212529;  /*color gris*/
+	float:left;
+	position:inline;
+	margin-right:2px;
+	margin-left:37%;
+	vertical-align: middle;
+}
+
+.fa-star{
+	color: #212529;     /* color gris*/
+	margin-left: 2px;
+	margin-right: 0px;
+	padding: 0;
+	padding-bottom: 3px;
+	text-align: center;
+}
+
+.yo{		/*linea derecha junto a la estrella*/
+	width: 100px;
+	border: 2px solid #212529;  /*color gris*/
+	float:right;
+	position:inline;
+	margin-left: 2px;
+	margin-right: 38%;
+	
+	
+
+}
+
+input{    /*FORMULARIOA */
+	font-family: 'lano', sans-serif;
+	font-size: 22px;
+	color: #212529;    /*color gris*/
+	align-items: center;
+	width: 600px;
+	height: 50px;
+	border-top-color: none;
+	border-left-color: none;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 250px;
+	margin-right: 200px;
+	margin-top: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+}	
+
+input:hover{
+	font-family: 'lano', sans-serif;
+	font-size: 22px;
+	color: #18bc9c;
+	align-items: center;
+	width: 600px;
+	height: 50px;s
+	border-radius: 5px;
+	margin-left: 250px;
+	margin-right: 200px;
+	margin-top: 10px;
+}
+.msn{
+	width: 600px;
+	height: 100px;
+	align-content: top;
+	border-color: none;
+	border-radius: 5px;
+	font-family: 'lano', sans-serif;
+}
+.msn:hover{
+	width: 600px;
+	height: 100px;
+	align-content: top;
+	border-color: none;
+	border-radius: 5px;
+	font-family: 'lano', sans-serif;
+
+}
+
+.enviar{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 19px;
+	color: #fff;    /*color blanco*/
+	text-align: center;
+	border-radius: 8px;
+	border: 1px solid #fff;     /*color blanco*/
+	width: 78px;
+	height: 50px;
+	background: #18bc9c;   /*color celeste*/
+	margin-left: 244px;
+	margin-top: 30px;
+}
+.enviar:hover{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 19px;
+	color: #18bc9c;     /*color celeste*/
+	text-align: center;
+	border-radius: 8px;
+	border: 1px solid #18bc9c;    /*color celeste*/
+	width: 78px;
+	height: 50px;
+	background: #fff;    /*color blanco*/
+	margin-left: 244px;
+	margin-top: 30px;
+	
+
+}
+
+/* aqui termina CONTACT ME*/
+
+footer{
+
+	background: #2c3e50;    /*color azul oscuro*/
+	width: 100%;
+	height:300px;
+	color: #fff;   /*color blanco*/
+	
+}
+.direc{    /*LOCACION*/
+	width: 280px;
+	float:left;
+	margin-right: 40px;
+	margin-left:30px;
+	
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 0px;
+}
+.loc{
+	margin-top: 5px;
+	text-align: center;
+	border: 2px solid red;
+	color: #fff;
+	font-size: 20px;
+
+}
+.web{
+	width: 320px;
+	float:left;
+	color: #fff;
+	text-align: center;
+}
+h4{   /*titulo redes sociales*/
+	font-size: 27px;
+	text-align: center;
+	color: #fff;
+	font-weight: 900;
+	font-family: 'lano', sans-serif;
+	height: 10px;
+}
+	
+ i{    /*iconos redes sociales*/
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	text-align: center;	
+	margin-right: auto;
+	margin-left: auto;
+	display: inline;
+	vertical-align: middle;
+}
+
+
+.freel{
+	width: 300px;
+	float:left;
+	margin-right: 30px;
+	margin-left:30px;
+	margin-bottom:40px;
+	text-align: center;
+	color:#fff;
+	font-size: 20px;
+}
+
+/////**aqui va el copyrigth*/
+.cinco{
+	bottom: 0;
+	position: fixed;
+}
+h6{
+	
+	padding-top: 260px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+
+}
+/*FIN DEL DOCUMENTO*;
+
+
